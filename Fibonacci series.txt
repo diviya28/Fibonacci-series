@@ -1,0 +1,30 @@
+Fibonacci series:
+
+num=int(input("How many terms to be displayed:"))
+num1=0
+num2=1
+count=0
+while count<num:
+  print(num1)
+  sum=num1+num2
+  num1=num2
+  num2=sum
+  count+=1
+
+
+Output:
+How many terms to be displayed: 13
+
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
